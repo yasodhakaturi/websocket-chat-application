@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websocket chat application", "websocket chat application\websocket chat application.csproj", "{EDC5B3F8-74F9-4149-B365-3890209D0965}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websocket", "websocket chat application\websocket.csproj", "{EDC5B3F8-74F9-4149-B365-3890209D0965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

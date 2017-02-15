@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <script type="text/javascript" src="../jquery-1.10.2-vsdoc.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../jquery-3.1.1.min.js"></script>
     <title></title>
     <script>
         $(document).ready(function () {
           
                 var username = prompt('Please enter a username:');
              
-                 var uri = 'ws://' + window.location.hostname + window.location.pathname.replace('chat.htm', 'api/Chat') + '?username=' + username;
+                 //var uri = 'ws://' + window.location.hostname + window.location.pathname.replace('chat.html', 'api/Chat') + '?username=' + username;
+                var uri = 'ws://localhost:64337/api/Chat?username=yasodha';
+                alert(uri);
                  websocket = new WebSocket(uri);
               
                  websocket.onopen = function () {
