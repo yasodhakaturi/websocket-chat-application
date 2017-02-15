@@ -1,0 +1,56 @@
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\obj\Debug\websocket chat application.csprojResolveAssemblyReference.cache
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\websocket chat application.dll.config
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\websocket chat application.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\websocket chat application.pdb
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Antlr3.Runtime.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\EntityFramework.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\EntityFramework.SqlServer.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Newtonsoft.Json.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Owin.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Helpers.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Mvc.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Optimization.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Razor.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.WebPages.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.WebPages.Razor.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\WebGrease.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Helpers.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Mvc.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Optimization.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.Razor.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.WebPages.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\System.Web.WebPages.Razor.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Antlr3.Runtime.pdb
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Newtonsoft.Json.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\EntityFramework.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\EntityFramework.SqlServer.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\obj\Debug\websocket chat application.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\obj\Debug\websocket chat application.pdb
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\push notifications\websocket chat application\websocket chat application\bin\Microsoft.WebSockets.dll

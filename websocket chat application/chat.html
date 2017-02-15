@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        $(document).ready(function () {
+          
+                var username = prompt('Please enter a username:');
+             
+                 var uri = 'ws://' + window.location.hostname + window.location.pathname.replace('chat.htm', 'api/Chat') + '?username=' + username;
+                 websocket = new WebSocket(uri);
+              
+                 websocket.onopen = function () {
+                       $('#messages').prepend('<div>Connected.</div>');
+                  
+                         $('#chatform').submit(function (event) {
+                                websocket.send($('#inputbox').val());
+                                 $('#inputbox').val('');
+                                 event.preventDefault();
+                            });
+                   };
+             
+                websocket.onerror = function (event) {
+                         $('#messages').prepend('<div>ERROR</div>');
+                   };
+              
+                 websocket.onmessage = function (event) {
+                         $('#messages').prepend('<div>' + event.data + '</div>');
+                    };
+            });
+    </script>
+</head>
+<body>
+    <form id="chatform" action="">
+    <input id="inputbox" />
+    
+    </form>
+    <div id="messages" />
+</body>
+</html>
