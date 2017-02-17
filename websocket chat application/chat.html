@@ -4,25 +4,36 @@
     <script language="JavaScript" type="text/javascript" src="../jquery-3.1.1.min.js"></script>
     <title></title>
     <script>
-        $(document).ready(function () {
+        //$(document).ready(function () {
           
-                var username = prompt('Please enter a username:');
+        //        var username = prompt('Please enter a username:');
              
-                 //var uri = 'ws://' + window.location.hostname + window.location.pathname.replace('chat.html', 'api/Chat') + '?username=' + username;
-                var uri = 'ws://localhost:64337/api/Chat?username=yasodha';
-                alert(uri);
-                 websocket = new WebSocket(uri);
+        //         var uri = 'ws://' + window.location.hostname + window.location.pathname.replace('chat.html', 'api/Chat') + '?username=' + username;
+        //        //var uri = 'ws://localhost:64337/api/Chat?username=yasodha';
+        //        //alert(uri);
+        //         websocket = new WebSocket(uri);
               
-                 websocket.onopen = function () {
-                       $('#messages').prepend('<div>Connected.</div>');
+        //         websocket.onopen = function () {
+        //               $('#messages').prepend('<div>Connected.</div>');
                   
-                         $('#chatform').submit(function (event) {
-                                websocket.send($('#inputbox').val());
-                                 $('#inputbox').val('');
-                                 event.preventDefault();
-                            });
-                   };
-             
+        //                 $('#chatform').submit(function (event) {
+        //                        websocket.send($('#inputbox').val());
+        //                         $('#inputbox').val('');
+        //                         event.preventDefault();
+        //                    });
+        //           };
+        $(document).ready(function () {
+
+            var username = prompt('Please enter a username:');
+
+            var uri = 'ws://' + window.location.hostname + window.location.pathname.replace('Analytics#!/index', 'api/Chat') + '?userid=' + "@Model.userInfo.user_id";
+            //var uri = 'ws://localhost:64337/api/Chat?username=yasodha';
+            //alert(uri);
+            websocket = new WebSocket(uri);
+            var id="1";
+            websocket.onopen = function (id) {
+            };
+            }
                 websocket.onerror = function (event) {
                          $('#messages').prepend('<div>ERROR</div>');
                    };

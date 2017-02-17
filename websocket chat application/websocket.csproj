@@ -55,6 +55,8 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -171,24 +173,106 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnalyticsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnalyticsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AnalyticsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AnalyticsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnalyticsModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiconfig.cs" />
+    <Compile Include="City_Blocks_IPv4_GeoLite2.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="City_Locations_GeoLite2.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ChatController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="CountryData.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CountryData_GeoLite2.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CountryData_IPv4_GeoLite2.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorLog.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="freeGeoipData.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="hashid_test.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Locations_Data.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoginHistory.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Location.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DashBoardSummary.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RIDDATA.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SHORTURLDATA.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spGetALLCOUNTS1_Result.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spGetALLCOUNTS_Result.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmp_rownum_update.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UIDDATA.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UniqueNumbers_Test.cs">
+      <DependentUpon>AnalyticsModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="chat.html" />
@@ -201,6 +285,23 @@
     <Content Include="jquery-3.1.1.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <EntityDeploy Include="AnalyticsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AnalyticsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="AnalyticsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AnalyticsModel.edmx</DependentUpon>
+      <LastGenOutput>AnalyticsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AnalyticsModel.edmx.diagram">
+      <DependentUpon>AnalyticsModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="AnalyticsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AnalyticsModel.edmx</DependentUpon>
+      <LastGenOutput>AnalyticsModel.cs</LastGenOutput>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -213,7 +314,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -260,6 +363,9 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -278,11 +384,10 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>64337</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:64337/</IISUrl>
+          <IISUrl>http://localhost:80/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl>http://dev.g0.pe</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

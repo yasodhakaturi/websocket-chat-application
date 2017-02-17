@@ -60,3 +60,5 @@ C:\Users\yasodha\Documents\Visual Studio 2013\Projects\websocket-chat-applicatio
 C:\Users\yasodha\Documents\Visual Studio 2013\Projects\websocket-chat-application\websocket chat application\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\yasodha\Documents\Visual Studio 2013\Projects\websocket-chat-application\websocket chat application\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\yasodha\Documents\Visual Studio 2013\Projects\websocket-chat-application\websocket chat application\obj\Debug\websocket chat application.pdb
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\websocket-chat-application\websocket chat application\bin\Fleck.dll
+C:\Users\yasodha\Documents\Visual Studio 2013\Projects\websocket-chat-application\websocket chat application\bin\WebSocket4Net.dll
